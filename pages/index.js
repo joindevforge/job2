@@ -57,7 +57,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <div className="wrapper bg-[#DBEFFE] mt-[12.19rem]">
+      <div className="wrapper bg-[#DBEFFE] md:mt-[12.19rem] mt-0">
         <div className="wrapper-item py-[100px]">
           <div className="w-full h-full flex flex-col items-center">
             <h1 className="md:w-[45%]  w-[95%] h-full md:text-[2rem] text-[1.75rem] font-[700] text-center font-domine">

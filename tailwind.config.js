@@ -22,7 +22,9 @@ module.exports = {
         "lg":"1440px",
         "md":"1024px",
         "md2":"1281px",
-        "sm":"832px"
+        "md3":"1120px",
+        "sm":"832px",
+        "sm2":"450px"
       }
     },
   },

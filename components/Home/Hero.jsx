@@ -23,7 +23,7 @@ function Hero() {
               </h1>
             </div>
             <div className=" absolute left-[41%] md:top-[77.7%] top-[55%]">
-              <p className="md:w-[575px] w-full px-4 md:px-0  h-full leading-normal text-[#000] font-Inter md:text-[1.25rem] text-[12px] font-[400]  tracking-[-0.3%] ">
+              <p className="md:w-[575px] w-full pr-4 md:px-0  h-full leading-normal text-[#000] font-Inter md:text-[1.25rem] text-[12px] font-[400]  tracking-[-0.3%] ">
                 A cutting-edge networking platform designed specifically for
                 high school students set to revolutionize the way teenagers
                 connect, collaborate, and grow in the digital age
@@ -41,7 +41,7 @@ function Hero() {
               <div className="img2">
                 <img
                   src="/linked/img2.jpg"
-                  className=" z-20 w-[225px]  rounded-[20px] md:w-[225px] w-[70px]"
+                  className=" z-20 w-[225px]  md:rounded-[20px] rounded-[12px] md:w-[225px] w-[70px]"
                 />
               </div>
             </div>
@@ -49,7 +49,7 @@ function Hero() {
               <div className="img3 z-20">
                 <img
                   src="/linked/img3.jpg"
-                  className=" z-20  rounded-[20px] md:w-[127px] w-[50px]"
+                  className=" z-20  md:rounded-[20px] rounded-[10px] md:w-[127px] w-[50px]"
                 />
               </div>
             </div>
@@ -58,7 +58,7 @@ function Hero() {
                <img
                 src="/linked/img4.jpg"
                 alt="as"
-                className="z-20 md:w-[134px] w-[45px] rounded-[20px]"
+                className="z-20 md:w-[134px] w-[45px] md:rounded-[20px] rounded-[8px]"
                 />
                </div>
             </div>

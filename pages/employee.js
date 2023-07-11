@@ -138,46 +138,48 @@ function Employee() {
           <div className="max-w-[1440px] md:pt-[40px] md:px-[40px] pt-[1rem] px-[1rem] pb-0 mx-auto flex flex-col items-center  w-full h-full">
             <div className="flex justify-between md:flex-row flex-col-reverse mx-auto my-0 max-w-[1247px] w-full">
               <div className="max-w-[674px] w-full h-full">
-                <h2 className="mt-[2rem] mb-[1.5rem] md:max-w-[580px] max-w-full w-full md:text-[3rem] text-[2rem] leading-[46px] font-[500] text-[#262626] font-Founders">
-                  Quickly connect with workers you want to hire
+                <h2 className="mt-[2rem] mb-[1.5rem] md:max-w-[565px]  text-[#2C04BD] max-w-full w-full md:text-[2.5rem] text-[2rem]  font-[700] font-domine">
+                Where <span className="text-[#FC6243]">networking</span> meets <span className="text-[#FC6243]">teenage spirit</span>!
                 </h2>
-                <p className=" font-Inter font-[400] text-[1rem] text-[#595959] leading-[24px] m-0 ">
-                  Jobcase is an online community where workers of all kinds –
-                  like hourly employees, tradespeople and healthcare technicians
-                  – access jobs, make connections, and support each other in any
-                  aspect of their work life. Here, you’ll find real people
-                  empowering one another on their way to a better future. That’s
-                  why helping you fill your open roles matters to us. Because it
-                  matters to our millions of members who work together every day
-                  to spread opportunity and land fantastic jobs.
+                <p className=" md:max-w-[546px] max-w-full  font-Inter font-[400] text-[1.125rem] text-[#262626]  m-0 ">
+                As the perfect blend of LinkedIn and the vibrant spirit of
+teenagers, Teencept offers a unique space for teens to
+connect, collaborate, and blossom. Packed with exciting
+volunteering opportunities and interactive workshops, this
+innovative platform not only broadens horizons but also
+empowers young minds to make a meaningful impact in their
+communities.
                 </p>
               </div>
-              <div className="max-w-[400px] w-full flex justify-center pt-8 md:pt-0">
+              <div className="max-w-[352px] w-full flex justify-center md:mr-[130px] pt-8 md:pt-0">
                 <img
-                  src="/images/employee/quickly-connect.png"
+                  src="/images/desk.png"
                   alt="hero"
                   className="w-[202px] md:w-full"
                 />
               </div>
             </div>
             {/* second  */}
-            <div className="flex  md:flex-row-reverse flex-col-reverse mx-auto my-0 max-w-[1247px] w-full pt-[40px]">
+            <div className="flex  md:flex-row-reverse flex-col-reverse mx-auto my-0 max-w-[1247px] w-full pt-[40px] md:pt-[80px]">
               <div className="max-w-[613px] w-full h-full   flex  items-center">
-                <div className="w-full h-full md:mt-[105px]">
-                  <h2 className="mt-[2rem] mb-[1.5rem] md:max-w-[580px] max-w-full w-full md:text-[3rem] text-[2rem] leading-[46px] font-[500] text-[#262626] font-Founders">
-                    Jobcase empowers employers like you
-                  </h2>
-                  <p className=" font-Inter font-[400] text-[1rem] text-[#595959] leading-[24px] m-0 ">
-                    No matter the size of your company, you can quickly find
-                    great workers in the Jobcase community. Whether you need one
-                    employee around the corner, or want to hire hundreds across
-                    the country, we help you find the right people fast.
-                  </p>
+                <div className="w-full h-full ">
+                <h2 className="mt-[2rem] mb-[1.5rem] md:max-w-[565px]  text-[#2C04BD] max-w-full w-full md:text-[2.5rem] text-[2rem]  font-[700] font-domine">
+                Where <span className="text-[#FC6243]">networking</span> meets <span className="text-[#FC6243]">teenage spirit</span>!
+                </h2>
+                <p className=" md:max-w-[546px] max-w-full  font-Inter font-[400] text-[1.125rem] text-[#262626]  m-0 ">
+                As the perfect blend of LinkedIn and the vibrant spirit of
+teenagers, Teencept offers a unique space for teens to
+connect, collaborate, and blossom. Packed with exciting
+volunteering opportunities and interactive workshops, this
+innovative platform not only broadens horizons but also
+empowers young minds to make a meaningful impact in their
+communities.
+                </p>
                 </div>
               </div>
               <div className="max-w-[352px] md:ml-[116px] md:mr-[130px] w-full flex justify-center pt-8 md:pt-0">
                 <img
-                  src="/images/employee/warehouseladies.png"
+                  src="/images/desk.png"
                   alt="hero"
                   className="w-[202px] md:w-full"
                 />

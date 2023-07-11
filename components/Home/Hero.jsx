@@ -8,7 +8,7 @@ function Hero() {
       <div className="wrapper">
         <div className="w-full h-full">
         <div className="w-full h-full flex justify-center ">
-          <div className="w-[1280px] h-[809px] overflow-hidden  relative ">
+          <div className="lg:w-[1280px] w-full h-[809px] overflow-hidden  relative ">
             <div className=" absolute top-[85px] left-[137px]">
               <h1 className=" font-domine leading-normal text-[6rem] font-[700]  tracking-[-4.32px] text-[#1C04AD] ">
                 A new

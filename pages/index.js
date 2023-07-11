@@ -58,12 +58,12 @@ export default function Home() {
     <>
       <Hero />
       <div className="wrapper bg-[#DBEFFE] md:mt-[12.19rem] mt-0">
-        <div className="wrapper-item py-[100px]">
+        <div className="wrapper-item md:py-[100px] py-[50px]">
           <div className="w-full h-full flex flex-col items-center">
             <h1 className="md:w-[45%]  w-[95%] h-full md:text-[2rem] text-[1.75rem] font-[700] text-center font-domine">
               Helping teens get ahead whether it is college or career
             </h1>
-            <p className="md:mt-[40px] mt-[20px] md:w-[57%]  w-[90%] md:text-center text-left font-Inter text-[1.25rem] font-[400]">
+            <p className="md:mt-[40px] mt-[20px] md:w-[57%]  w-[90%] md:text-center text-left font-Inter md:text-[1.25rem] text-[1rem] font-[400]">
               From a young age, school has taught us that our academic success
               will be essential to getting jobs in the future. However, school
               often fails to teach us that many other factors, the most

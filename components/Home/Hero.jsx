@@ -23,7 +23,7 @@ function Hero() {
               </h1>
             </div>
             <div className=" absolute left-[41%] md:top-[77.7%] top-[55%]">
-              <p className="md:w-[575px]  h-full leading-normal text-[#000] font-Inter md:text-[1.25rem] text-[12px] font-[400]  tracking-[-0.3%] ">
+              <p className="md:w-[575px] w-full px-4 md:px-0  h-full leading-normal text-[#000] font-Inter md:text-[1.25rem] text-[12px] font-[400]  tracking-[-0.3%] ">
                 A cutting-edge networking platform designed specifically for
                 high school students set to revolutionize the way teenagers
                 connect, collaborate, and grow in the digital age

@@ -5,7 +5,7 @@ function Tags({ title }) {
   return (
     <>
       <Link href="#">
-        <div className="md:w-[272px] w-full min-w-[350px] md:min-w-0 md:mb-[44px]  mb-[22px] md:h-[75px]  md:py-[23px] md:px-[25px] p-[1rem] flex items-center border border-[#E5E5E5] bg-[#ffffff] rounded-[10px] ">
+        <div className="md:w-[272px] w-[220px]  md:min-w-0 md:mb-[44px]  mb-[22px] md:h-[75px]  md:py-[23px] md:px-[25px] p-[1rem] flex items-center border border-[#E5E5E5] bg-[#ffffff] rounded-[10px] ">
           <div className="md:w-[30px]  md:h-[30px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"

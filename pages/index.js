@@ -6,7 +6,6 @@ import Tags from "@/components/Home/Tags";
 import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
 
-
 const images = [
   "/images/landingPage/b1.svg",
   "/images/landingPage/b2.svg",
@@ -23,7 +22,7 @@ const resources = [
   "Avoiding scams",
   "Popular places to work",
   "Career discovery",
-  "Building your network"
+  "Building your network",
 ];
 
 const search2 = [
@@ -57,7 +56,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <div className="wrapper bg-[#DBEFFE] md:mt-[12.19rem] mt-0">
+      <div className="wrapper bg-[#DBEFFE] md:mt-[6.25rem] mt-0">
         <div className="wrapper-item md:py-[100px] py-[50px]">
           <div className="w-full h-full flex flex-col items-center">
             <h1 className="md:w-[45%]  w-[95%] h-full md:text-[2rem] text-[1.75rem] font-[700] text-center font-domine">
@@ -77,17 +76,27 @@ export default function Home() {
           <h1 className=" text-center font-domine md:text-[2rem] text-[1.75rem] font-[700] px-4">
             Explore opportunities that help you get ahead
           </h1>
-          <div className="md:mt-[50px] mt-[30px]  w-full h-full flex flex-col items-center">
-            <div className="md:w-[50%] w-full flex md:flex-row flex-col items-center justify-between">
-              <Tags title="Volunteering" />
-              <Tags title="Internships" />
+          <div className="md:mt-[50px] mt-[30px]  w-full h-full flex justify-center flex-col items-center">
+            <div className="sm:w-[50%] h-[170px] md:h-full  relative md:static  w-full  flex sm:flex-row flex-col items-center justify-between">
+              <div className=" absolute sm:static left-5 top-0 ">
+                <Tags title="Volunteering" />
+              </div>
+              <div className=" absolute sm:static right-5  bottom-0">
+                <Tags title="Internships" />
+              </div>
             </div>
-            <div className="md:w-[60%] w-full flex md:flex-row flex-col items-center md:justify-between">
-              <Tags title="Fellowships" />
-              <Tags title="Scholarships" />
+            <div className="sm:w-[60%] h-[170px] md:h-full  relative md:static  w-full  flex sm:flex-row flex-col items-center justify-between">
+              <div className=" absolute sm:static left-5 top-0 ">
+                <Tags title="Fellowships" />
+              </div>
+              <div className=" absolute sm:static right-5  bottom-0">
+                <Tags title="Scholarships" />
+              </div>
             </div>
-            <div className="md:w-[80%] w-full flex items-center justify-center">
-              <Tags title="Mentorships" />
+            <div className="sm:w-[100%] h-[75px] md:h-full  relative md:static  w-full  flex   items-center justify-center">
+              <div className=" absolute sm:static left-5">
+                <Tags title="Mentorships" />
+              </div>
             </div>
           </div>
         </div>
@@ -110,10 +119,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-          </div>
+        </div>
       </div>
-          {/*  */}
-          <div className="pt-[2rem]">
+      {/*  */}
+      <div className="pt-[2rem]">
         <h3 className="w-full   pb-[10px] font-FoundersA text-center md:text-[3rem] text-[2rem] leading-[38px] font-[500] px-4">
           Work with top employers & local businesses
         </h3>
@@ -151,11 +160,13 @@ export default function Home() {
               </h3>
               <div className=" w-full md:w-[660px] resources md:flex grid grid-cols-1 resources   flex-wrap ">
                 {resources.map((item, index) => {
-                 return(<>
-                 <div key={index} className="mr-[1rem]">
-                 <Chips2  title={item} />
-                 </div>
-                 </>)
+                  return (
+                    <>
+                      <div key={index} className="mr-[1rem]">
+                        <Chips2 title={item} />
+                      </div>
+                    </>
+                  );
                 })}
               </div>
             </div>
@@ -177,33 +188,28 @@ export default function Home() {
           <h3 className="text-[2.25rem] w-full text-start  font-[500]  px-2">
             Trending topics
           </h3>
-      <div className="pt-[1rem] w-full   pb-[5rem]">
-        <ul className="flex  md:flex-wrap   overflow-x-scroll no-scrollbar ">
-          {search2.map((item, index) => {
-            return (
-              <>
-              <li key={index} className="mx-2">
-              <Chips3
-                  
-                  title={item.title}
-                  followers={item.followers}
-                />
-              </li>
-              </>
-            );
-          })}
-        </ul>
-        <Link
-          href="#"
-          className="text-bluee flex items-center text-[19px]  font-[500] mt-1"
-        >
-          See what people are talking about
-          <FiArrowRight className="ml-2" />
-        </Link>
-      </div>
+          <div className="pt-[1rem] w-full   pb-[5rem]">
+            <ul className="flex  md:flex-wrap   overflow-x-scroll no-scrollbar ">
+              {search2.map((item, index) => {
+                return (
+                  <>
+                    <li key={index} className="mx-2">
+                      <Chips3 title={item.title} followers={item.followers} />
+                    </li>
+                  </>
+                );
+              })}
+            </ul>
+            <Link
+              href="#"
+              className="text-bluee flex items-center text-[19px]  font-[500] mt-1"
+            >
+              See what people are talking about
+              <FiArrowRight className="ml-2" />
+            </Link>
+          </div>
         </div>
       </div>
-     
     </>
   );
 }

@@ -16,13 +16,13 @@ function Hero() {
                 <span className="text-[#FC6142]">LinkedIn</span> for the
               </h1>
             </div>
-            <div className=" absolute md:top-[43.5%] top-[35%] left-[41%] z-10 ">
-              <h1 className="font-dominemd3:text-[6rem] md:text-[5rem] text-[1.5rem] font-[700] md:leading-normal leading-[30px] tracking-normal  md:tracking-[-4.32px] text-[#1C04AD]">
+            <div className=" absolute md:top-[45.75%] top-[31.5%] left-[41%] z-10 ">
+              <h1 className="font-domine md3:text-[6rem] md:text-[5rem] text-[1.5rem] font-[700] md:leading-normal leading-[30px] tracking-normal  md:tracking-[-4.32px] text-[#1C04AD]">
                 <span className="text-[#FC6142]">teenagers</span> of <br />
                 new India
               </h1>
             </div>
-            <div className=" absolute left-[41%] md:top-[77.7%] top-[55%]">
+            <div className=" absolute left-[41%] md:top-[80.7%] top-[52%]">
               <p className="md:w-[575px] w-full pr-4 md:px-0  h-full leading-normal text-[#000] font-Inter md:text-[1.25rem] text-[12px] font-[400]  tracking-[-0.3%] ">
                 A cutting-edge networking platform designed specifically for
                 high school students set to revolutionize the way teenagers
@@ -37,7 +37,7 @@ function Hero() {
                 />
               </div>
             </div>
-            <div className=" absolute top-[18%]  left-[82.6%]  ">
+            <div className=" absolute top-[18%]  left-[80.6%]  ">
               <div className="img2">
                 <img
                   src="/linked/img2.jpg"
@@ -45,7 +45,7 @@ function Hero() {
                 />
               </div>
             </div>
-            <div className=" absolute md:top-[14.2%] top-[10%] left-[65.3%]">
+            <div className=" absolute md:top-[14.2%] top-[10%] left-[60.3%]">
               <div className="img3 z-20">
                 <img
                   src="/linked/img3.jpg"

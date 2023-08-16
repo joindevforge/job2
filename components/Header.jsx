@@ -8,7 +8,7 @@ function Header() {
   const nav = [
     {
       name: "Community",
-      link: "/interview",
+      link: "/",
     },
     {
       name: "Jobs",
@@ -54,7 +54,7 @@ function Header() {
             <Link href="#" className="text-[16px] font-[700]  hidden md:block">
               Log in
             </Link>
-            <Link href="#" className="text-[16px] font-[700]  hidden md:block">
+            <Link href="/employee" className="text-[16px] font-[700]  hidden md:block">
               Employers
             </Link>
             <div className="  text-black mr-4 block md:hidden">

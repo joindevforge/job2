@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        "domine":['Domine', 'serif'],
+        "Domine":['Domine', 'serif'],
         'Founders':[ 'Founders Grotesk ','sans-sarif'],
         "Inter":['Inter', 'sans-serif'],
         "cond" :['Founders Grotesk X-Condensed','sans-sarif'],

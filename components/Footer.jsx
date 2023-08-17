@@ -6,9 +6,11 @@ function Footer() {
     <>
       <div className=" relative z-[50] ">
         <div className=" sm:py-[40px] py-[30px] px-[40px] sm:px-[80px] bg-[#2c04bd]">
-          <div className="mb-[24px] text-white">
+          <Link href="/" className=" text-white">
+          <div className="mb-[24px]">
             <img src="/images/logo.svg" className=" text-white" alt="logo" />
-          </div>
+            </div>
+          </Link>
           <div className=" flex gap-[16px]">
             <Link
               href="https://www.facebook.com/jobcaseinc"

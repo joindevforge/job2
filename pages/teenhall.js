@@ -221,22 +221,8 @@ function Teenhall() {
             TeenHall August Calendar
           </p>
           <div className=" max-w-[80%] mx-auto w-full h-full flex justify-center items-center  ">
-            {/* <div className="sm:w-[600px] w-full mx-[30px] h-[600px] ">
-              <script
-                type="text/javascript"
-                async
-                src="https://static.zcal.co/embed/v1/embed.js"
-              ></script>
-              <div class="zcal-inline-widget">
-                <a href="https://zcal.co/i/bHcvCUr7">
-                  TeenHall by TeenHive - Schedule a meeting
-                </a>
-              </div>
-              Forward
-            </div> */}
             <div>
-            {/* style="border:none; min-width: 320px; min-height: 544px; height: 966px; width: 1096px" */}
-            <iframe src="https://zcal.co/i/bHcvCUr7?embed=1&embedType=iframe" loading="lazy" className=" min-w-[320px] min-h-[1044px] w-full h-full sm:h-[1250px] sm:w-[1030px]" id="zcal-invite"></iframe>
+              <iframe src="https://zcal.co/i/bHcvCUr7?embed=1&embedType=iframe" loading="lazy" className=" min-w-[320px] min-h-[1044px] w-full h-full sm:h-[1250px] sm:w-[1030px]" id="zcal-invite"></iframe>
             </div>
           </div>
         </div>

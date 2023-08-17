@@ -7,16 +7,16 @@ function Header() {
   const [isopen, setIsopen] = useState(false);
   const nav = [
     {
-      name: "Community",
-      link: "/interview",
+      name: "About us",
+      link: "/about-us",
     },
     {
-      name: "Jobs",
-      link: "/",
+      name: "TeenHall",
+      link: "/teenhall",
     },
     {
-      name: "Resourses",
-      link: "/",
+      name: "Teen Ambassadors",
+      link: "/teen-ambassadors",
     },
   ];
   return (
@@ -24,15 +24,15 @@ function Header() {
       <div className="w-full h-[5.3125rem] top-0 border-[1px]  flex justify-center z-50 bg-white ">
         <div className="w-[98%] flex items-center justify-between h-full">
           <div className=" w-[15%]  h-full  flex   justify-start items-center ">
-            <div className="">
+            <Link href="/" className="">
               <Image
-                src="/images/landingPage/homeicon.svg"
+                src="https://ik.imagekit.io/nhuikqpll/teenhive_home/teenhive.svg"
                 alt="logo"
                 width={120}
                 height={100}
                 className="mr-4 ml-3"
               />
-            </div>
+            </Link>
           </div>
           <div className="w-[30%] h-full hidden   md:flex justify-between items-center font-[500]">
             {nav.map((item, index) => {
@@ -54,7 +54,7 @@ function Header() {
             <Link href="#" className="text-[16px] font-[700]  hidden md:block">
               Log in
             </Link>
-            <Link href="#" className="text-[16px] font-[700]  hidden md:block">
+            <Link href="/employee" className="text-[16px] font-[700]  hidden md:block">
               Employers
             </Link>
             <div className="  text-black mr-4 block md:hidden">

@@ -77,7 +77,7 @@ const cardData2 = [
 function Employee() {
   return (
     <>
-      <div className="w-full md:mt-[85px] mt-[56px] h-full">
+      <div className="w-full  h-full">
         <img
           src="/images/employee/employer-hero-2.png"
           alt="Picture of the author"

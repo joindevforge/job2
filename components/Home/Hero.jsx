@@ -4,7 +4,6 @@ import Header from "../Header";
 function Hero() {
   return (
     <>
-      <Header />
       <div className="wrapper">
         <div className="w-full h-full">
         <div className="w-full h-full flex justify-center ">

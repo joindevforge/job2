@@ -3,9 +3,9 @@ import React from 'react'
 function Modalget({setModel,Model}) {
   return (
     <>
-        <div className="w-full h-screen fixed  top-0 z-10 ">
-          <div className=" w-full fixed top-0 h-screen bg-black z-20 opacity-70" />
-          <div className="fixed top-0 w-full h-full z-40 flex items-center justify-center">
+        <div className="w-full h-screen fixed  top-0 z-30 ">
+          <div className=" w-full fixed top-0 h-screen bg-black z-40 opacity-70" />
+          <div className="fixed top-0 w-full h-full z-50 flex items-center justify-center">
             <div className="w-[576px]  h-[416px]  bg-white rounded-[20px] flex flex-col  items-center">
               <div className="w-full h-[50px] flex justify-end items-center">
                 <button

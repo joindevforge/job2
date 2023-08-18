@@ -151,9 +151,6 @@ export default function Home() {
         <p className="lg:text-[3.5rem] sm:text-[3.5rem] text-[1.75rem]   tracking-[-1.05px]  leading-[3.125rem] mt-4 mr-6 font-[700] font-Domine   as text-white text-center">
         Unleash your potential
         </p>
-        {/* <button className="md:w-[160px] w-full h-[50px] bg-[#FC6142] mt-2 lg:mt-0 text-white font-Inter font-[700] rounded-[12px]">
-          Join for free
-        </button> */}
       </div>
       <div className="w-full h-full flex items-center justify-center md:p-[5rem] p-0 pt-[2rem] ">
         <div className="max-w-[1280px] w-full px-4 md:px-0 h-full ">

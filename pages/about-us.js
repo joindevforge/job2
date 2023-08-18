@@ -150,18 +150,10 @@ function Aboutus() {
       </div>
       <div className="md:pt-[48px] pt-[40px] md:px-[80px] px-[1rem]">
         <h1 className=" font-Founders md:leading-[54px] leading-[32px] md:text-[3rem] text-[2rem]  font-[500] mb-[1rem] text-[#262626] ">
-          Meet Jobcase
+        Meet TeenHive
         </h1>
         <p className=" font-Inter text-[1rem] pr-[25px] font-[400] text-[#262626]  pb-[40px] md:pb-[48px] ">
-          Our goal at Jobcase is to help all workers get ahead. Motivated by our
-          strong mission focus and unique company culture, our team is
-          passionate about building a platform where workers can connect to
-          create more opportunities for themselves and each other. Recent
-          acquisitions of Upward.net and Recruitology have propelled us –
-          advancing our mission even further so we can help more workers and
-          employers connect every day. Jobcase is headquartered just outside of
-          Boston in Cambridge, MA, with a satellite office in the Bay Area and a
-          large – work from anywhere – remote team.{" "}
+        TeenHive is a revolutionary new networking platform designed specifically for the ambitious teens of new India. Just as LinkedIn serves as a professional networking platform for adults, TeenHive aims to connect and empower the future leaders of India. With TeenHive, ambitious teens will have access to a valuable and safe online community, where they can connect with like-minded individuals, share ideas, and discover opportunities for learning and growth. If you are a teen with big dreams and aspirations, TeenHive is the ultimate LinkedIn alternative for Indian teens. Join TeenHive today and start building your network of ambitious peers!
         </p>
         <div>
           <h2 className=" font-Founders text-[2.25rem] font-[500] leading-[42px] mb-[3.75rem] ">

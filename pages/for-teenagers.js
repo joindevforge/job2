@@ -6,20 +6,19 @@ import React from "react";
 
 const stroke = [
   {
-    number: "120M+",
-    desc: "registered members",
+    number: "100+",
+    desc: "ambitious teens",
     desc2: "",
   },
   {
-    number: "20M+",
-    desc: "unique visitors per month",
+    number: "$100K+",
+    desc: "scholarships & fellowships",
     desc2: "",
   },
   {
-    number: "#3",
-    desc: "among US online career services¹",
-    desc2:
-      "¹Comscore Media Metrix®, Career Services and Development, Total Audience, December 2022, U.S.",
+    number: "3",
+    desc: "revolutionary ideas for teens",
+   
   },
 ];
 

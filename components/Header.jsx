@@ -2,9 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 function Header() {
   const [isopen, setIsopen] = useState(false);
+  const router = useRouter();
   const nav = [
     {
       name: "About us",
@@ -38,16 +40,25 @@ function Header() {
               />
             </Link>
           </div>
-          <div className="w-[40%] h-full hidden   md:flex justify-between items-center font-[500]">
+          <div className="w-[40%] h-full hidden    md:flex justify-between items-center font-[500]">
             {nav.map((item, index) => {
               return (
                 <Link
-                  key={index}
-                  href={item.link}
-                  className="px-[5px] text-base font-Inter  mx-[5px] transition-all duration-200 ease-in-out text-[20px] font-[500] "
-                >
-                  {item.name}
-                </Link>
+              key={index}
+              href={item.link}
+              className={`relative h-[28px] px-[5px] text-base font-Inter mx-[5px] transition-all duration-200 ease-in-out text-[20px] font-[500] ${
+                router.pathname === item.link ? "text-black" : "text-black"
+              }`} 
+            >
+              {item.name}
+              {router.pathname === item.link && (
+                <span
+                  className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-[2px] mt-[15px] rounded-[1px] bg-[#FC6142]"
+                  style={{ width: "20px" }} 
+                />
+              )}
+             
+            </Link>
               );
             })}
           </div>

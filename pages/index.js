@@ -126,12 +126,12 @@ export default function Home() {
       {/*  */}
       <div className="pt-[4rem]">
        <div className="w-full flex justify-center">
-       <h3 className="  text-center w-[53%] leading-[1.75]   pb-[10px]  font-Domine md:text-[1.75rem] tracking-[-0.025em]   text-[1.75rem]  font-[700] px-4">
+       <h3 className="  text-center w-full sm:w-[53%] leading-[1.75]   pb-[10px]  font-Domine md:text-[1.75rem] tracking-[-0.025em]   text-[1.75rem]  font-[700] px-4">
         Empowering  <span className=" text-[#FC6142]">aspiring teenpreneurs</span> to build the <span className="text-[#2C04BD]">next big thing</span>
         </h3>
        </div>
         <div className="  pb-[2rem] mt-[20px] md:pb-[100px] flex justify-center  ">
-          <div className="grid md2:grid-cols-6  grid-cols-4 gap-[-5%]  items-center justify-center mx-4 w-full max-w-[1280px]  ">
+          <div className="grid md2:grid-cols-4  grid-cols-2 gap-[30px]  items-center justify-center mx-4 w-full max-w-[1280px]  ">
             {images.map((item, index) => {
               return (
                 <div
@@ -147,13 +147,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className=" bg-bluee ass   px-8    pt-[60px]  pb-[70px] flex items-center  justify-center flex-wrap">
-        <p className="lg:text-[3.5rem] text-[3.5rem]   tracking-[-1.05px]  leading-[3.125rem] mt-4 mr-6 font-[700] font-Domine   as text-white text-center">
+      <div className=" bg-bluee ass   px-8    sm:pt-[60px] py-[30px]  sm:pb-[70px] flex items-center  justify-center flex-wrap">
+        <p className="lg:text-[3.5rem] sm:text-[3.5rem] text-[1.75rem]   tracking-[-1.05px]  leading-[3.125rem] mt-4 mr-6 font-[700] font-Domine   as text-white text-center">
         Unleash your potential
         </p>
-        {/* <button className="md:w-[160px] w-full h-[50px] bg-[#FC6142] mt-2 lg:mt-0 text-white font-Inter font-[700] rounded-[12px]">
-          Join for free
-        </button> */}
       </div>
       <div className="w-full h-full flex items-center justify-center md:p-[5rem] p-0 pt-[2rem] ">
         <div className="max-w-[1280px] w-full px-4 md:px-0 h-full ">

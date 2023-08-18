@@ -6,16 +6,16 @@ import React, { useEffect, useState } from "react";
 
 const stroke = [
   {
-    number: "120M+",
-    desc: "registered members",
+    number: "100+",
+    desc: "ambitious teens",
   },
   {
-    number: "20M+",
-    desc: "unique visitors per month",
+    number: "$100K+",
+    desc: "scholarships & fellowships",
   },
   {
-    number: "#3",
-    desc: "among US online career services¹",
+    number: "3",
+    desc: "revolutionary ideas for teens",
   },
 ];
 
@@ -83,7 +83,7 @@ function Aboutus() {
               return (
                 <>
                   <div key={index}>
-                    <p className="md:text-[2.25rem] text-[2rem] font-bold text-bluee font-Founders text-center">
+                    <p className="md:text-[2.25rem] text-[2rem] font-bold text-bluee  font-Domine text-center">
                       {item.number}
                     </p>
                     <p className="text-[#595959] font-[400]  font-Inter text-[1rem] text-center">
@@ -149,22 +149,14 @@ function Aboutus() {
         </div>
       </div>
       <div className="md:pt-[48px] pt-[40px] md:px-[80px] px-[1rem]">
-        <h1 className=" font-Founders md:leading-[54px] leading-[32px] md:text-[3rem] text-[2rem]  font-[500] mb-[1rem] text-[#262626] ">
-          Meet Jobcase
+        <h1 className=" font-Domine md:leading-[54px] font-bold leading-[32px]  md:text-[3rem] text-[2rem]   mb-[1rem] text-[#262626] ">
+        Meet TeenHive
         </h1>
-        <p className=" font-Inter text-[1rem] pr-[25px] font-[400] text-[#262626]  pb-[40px] md:pb-[48px] ">
-          Our goal at Jobcase is to help all workers get ahead. Motivated by our
-          strong mission focus and unique company culture, our team is
-          passionate about building a platform where workers can connect to
-          create more opportunities for themselves and each other. Recent
-          acquisitions of Upward.net and Recruitology have propelled us –
-          advancing our mission even further so we can help more workers and
-          employers connect every day. Jobcase is headquartered just outside of
-          Boston in Cambridge, MA, with a satellite office in the Bay Area and a
-          large – work from anywhere – remote team.{" "}
+        <p className=" font-Inter text-[1rem] pr-[25px] font-[400] text-[#262626] leading-[1.75] tracking-[-0.015em]  pb-[40px] md:pb-[48px] ">
+        TeenHive is a revolutionary new networking platform designed specifically for the ambitious teens of new India. Just as LinkedIn serves as a professional networking platform for adults, TeenHive aims to connect and empower the future leaders of India. With TeenHive, ambitious teens will have access to a valuable and safe online community, where they can connect with like-minded individuals, share ideas, and discover opportunities for learning and growth. If you are a teen with big dreams and aspirations, TeenHive is the ultimate LinkedIn alternative for Indian teens. Join TeenHive today and start building your network of ambitious peers!
         </p>
         <div>
-          <h2 className=" font-Founders text-[2.25rem] font-[500] leading-[42px] mb-[3.75rem] ">
+          <h2 className=" font-Domine text-[2.25rem] font-[500] leading-[42px] mb-[3.75rem] ">
             Jobcase Leadership
           </h2>
           <div className="w-full h-full mt-[40px] md1:px-[5rem] mb-[87px]">
@@ -173,7 +165,7 @@ function Aboutus() {
         </div>
       </div>
       <div className="bg-[#f4f4f4] md:py-[5rem] py-[2.5rem] md:pl-[3.4375rem] px-4">
-        <h2 className="md:mb-[74px] mb-[32px] text-center font-Founders md:text-[3rem] text-[1.75rem] font-[500] ">
+        <h2 className="md:mb-[74px] mb-[32px] text-center font-Domine md:text-[3rem] text-[1.75rem] font-[500] ">
           One team. One community.
         </h2>
         <div className="w-full h-full">
@@ -181,7 +173,7 @@ function Aboutus() {
         </div>
       </div>
       <div className="w-full h-full py-[40px] px-[1rem]">
-        <h2 className="text-center mb-[3.75rem]  font-Founders font-[500] text-[1.5rem]">
+        <h2 className="text-center mb-[3.75rem]  font-Domine font-[500] text-[1.5rem]">
           Jobcase is proud to have the support of our investment partners
         </h2>
         <div className="flex items-center justify-between">

@@ -1,4 +1,3 @@
-
 import Card3 from "@/components/employee/Card3";
 import Card4 from "@/components/employee/Card4";
 import Carousel2 from "@/components/employee/Carousel2";
@@ -79,36 +78,21 @@ function Employee() {
     <>
       <div className="w-full  h-full">
         <img
-          src="/images/employee/employer-hero-2.png"
+          src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/Group%2027-min.png"
           alt="Picture of the author"
         />
-        <div className="w-full h-full flex justify-center ">
+        <div className="w-full h-full flex justify-center py-[20px] ">
           <div className="max-w-[980px] w-full h-full">
-            <h1 className="md:text-[4.375rem] text-[3rem] md:mt-[4.6875rem] mt-[40px] font-[700] font-cond  text-bluee w-full text-center leading-[60px] ">
-              WORKERS READY WHEN YOU ARE
+            <h1 className=" text-[2.5rem] tracking-[-0.025em] pt-10 font-[700] font-Domine text-bluee w-full text-center ">
+              High school is just the beginning
             </h1>
             <div className="w-full h-full flex justify-center mt-[10px] ">
-              <p className="text-center md:text-[1.25rem] text-[1rem] font-Inter w-[95%]  text-[#595959]">
-                120M+ hourly, skilled and gig workers in our network and
-                community means filling high volume jobs is faster than ever
-                before. Let us help you get started today.
+              <p className="text-center md:text-[1.25rem] tracking-[-0.015em] w-full sm:w-[70%] text-[1rem] font-Inter leading-[1.75]  text-[#595959]">
+                Say goodbye to the days of feeling limited by your high school
+                walls – embrace the future of networking on this new LinkedIn
+                designed exclusively for high school students and teenagers of
+                new India
               </p>
-            </div>
-            <div className="w-full h-full flex items-center justify-center font-FoundersA text-[1.1875rem] font-[500] pt-10">
-              <div className="lg:w-full w-[90%] h-full flex md:flex-row  flex-col  justify-center">
-                <Link
-                  href="#"
-                  className="py-[12px] px-[32px] bg-[#fc6142] h-[50px] flex justify-center items-center  md:mx-[25px] md:w-auto w-full rounded-[8px] text-white font-500"
-                >
-                  Contact Us
-                </Link>
-                <Link
-                  href="#"
-                  className="py-[12px] px-[32px] border-2 md:mx-[25px] border-bluee text-bluee h-[50px] md:w-auto w-full flex items-center justify-center mt-6 md:mt-0 rounded-[8px]  font-500"
-                >
-                  Post a Job
-                </Link>
-              </div>
             </div>
           </div>
         </div>
@@ -136,52 +120,55 @@ function Employee() {
         {/*  carding start */}
         <div className="w-full h-full flex items-center justify-center">
           <div className="max-w-[1440px] md:pt-[40px] md:px-[40px] pt-[1rem] px-[1rem] pb-0 mx-auto flex flex-col items-center  w-full h-full">
-            <div className="flex justify-between md:flex-row flex-col-reverse mx-auto my-0 max-w-[1247px] w-full">
-              <div className="max-w-[674px] w-full h-full">
-                <h2 className="mt-[2rem] mb-[1.5rem] md:max-w-[565px]  text-[#2C04BD] max-w-full w-full md:text-[2.5rem] text-[2rem]  font-[700] font-domine">
-                Where <span className="text-[#FC6243]">networking</span> meets <span className="text-[#FC6243]">teenage spirit</span>!
+            <div className="flex justify-between md:flex-row flex-col-reverse gap-[50px] mx-auto my-0 max-w-[1247px] w-full">
+              <div className="max-w-[674px] flex flex-col  items-end w-full h-full">
+                <h2 className="mt-[2rem] mb-[1.5rem] md:max-w-[565px]  text-[#2C04BD] max-w-full w-full md:text-[2.5rem]   pl-[12px] tracking-[-0.7px] text-[32px]  font-[700] font-Domine">
+                  Where <span className="text-[#FC6243]">networking</span> meets{" "}
+                  <span className="text-[#FC6243]">teenage spirit</span>!
                 </h2>
-                <p className=" md:max-w-[546px] max-w-full  font-Inter font-[400] text-[1.125rem] text-[#262626]  m-0 ">
-                As the perfect blend of LinkedIn and the vibrant spirit of
-teenagers, Teencept offers a unique space for teens to
-connect, collaborate, and blossom. Packed with exciting
-volunteering opportunities and interactive workshops, this
-innovative platform not only broadens horizons but also
-empowers young minds to make a meaningful impact in their
-communities.
+                <p className=" md:max-w-[546px] max-w-full leading-[1.85] tracking-[-0.015em]  font-Inter font-[400] text-[1.125rem] text-[#262626]  m-0 ">
+                  As the perfect blend of LinkedIn and the vibrant spirit of
+                  teenagers, Teencept offers a unique space for teens to
+                  connect, collaborate, and blossom. Packed with exciting
+                  volunteering opportunities and interactive workshops, this
+                  innovative platform not only broadens horizons but also
+                  empowers young minds to make a meaningful impact in their
+                  communities.
                 </p>
               </div>
-              <div className="max-w-[352px] w-full flex justify-center md:mr-[130px] pt-8 md:pt-0">
+              <div className="max-w-[452px] w-full flex justify-center md:mr-[130px] pt-8 md:pt-0">
                 <img
-                  src="/images/desk.png"
+                  src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/292424085_626920661703109_5738193414187707202_n%201-min.png"
                   alt="hero"
-                  className="w-[202px] md:w-full"
+                  className=" h-full w-full md:w-full object-cover"
                 />
               </div>
             </div>
             {/* second  */}
-            <div className="flex  md:flex-row-reverse flex-col-reverse mx-auto my-0 max-w-[1247px] w-full pt-[40px] md:pt-[80px]">
+            <div className="flex  bg-red-500 md:flex-row-reverse flex-col-reverse mx-auto my-0 max-w-[1247px] w-full pt-[40px] md:pt-[80px]">
               <div className="max-w-[613px] w-full h-full   flex  items-center">
-                <div className="w-full h-full ">
-                <h2 className="mt-[2rem] mb-[1.5rem] md:max-w-[565px]  text-[#2C04BD] max-w-full w-full md:text-[2.5rem] text-[2rem]  font-[700] font-domine">
-                Where <span className="text-[#FC6243]">networking</span> meets <span className="text-[#FC6243]">teenage spirit</span>!
-                </h2>
-                <p className=" md:max-w-[546px] max-w-full  font-Inter font-[400] text-[1.125rem] text-[#262626]  m-0 ">
-                As the perfect blend of LinkedIn and the vibrant spirit of
-teenagers, Teencept offers a unique space for teens to
-connect, collaborate, and blossom. Packed with exciting
-volunteering opportunities and interactive workshops, this
-innovative platform not only broadens horizons but also
-empowers young minds to make a meaningful impact in their
-communities.
-                </p>
+                <div className="w-full h-full flex flex-col items-start ">
+                  <h2 className="mt-[2rem] mb-[1.5rem] md:max-w-[565px]  text-[#2C04BD] max-w-full w-full md:text-[2.5rem]   pl-[12px] tracking-[-0.7px] text-[32px]  font-[700] font-Domine">
+                    Where <span className="text-[#FC6243]">networking</span>{" "}
+                    meets <span className="text-[#FC6243]">teenage spirit</span>
+                    !
+                  </h2>
+                  <p className="  md:max-w-[546px] max-w-full leading-[1.85] tracking-[-0.015em]  font-Inter font-[400] text-[1.125rem] text-[#262626]  m-0 ">
+                    As the perfect blend of LinkedIn and the vibrant spirit of
+                    teenagers, Teencept offers a unique space for teens to
+                    connect, collaborate, and blossom. Packed with exciting
+                    volunteering opportunities and interactive workshops, this
+                    innovative platform not only broadens horizons but also
+                    empowers young minds to make a meaningful impact in their
+                    communities.
+                  </p>
                 </div>
               </div>
-              <div className="max-w-[352px] md:ml-[116px] md:mr-[130px] w-full flex justify-center pt-8 md:pt-0">
+              <div className="max-w-[452px] md:ml-[116px] md:mr-[130px] w-full flex justify-center pt-8 md:pt-0">
                 <img
-                  src="/images/desk.png"
+                  src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/363340344_673775471462543_4116554646052709963_n-min.jpg"
                   alt="hero"
-                  className="w-[202px] md:w-full"
+                  className="w-full h-full object-cover md:w-full"
                 />
               </div>
             </div>
@@ -250,14 +237,19 @@ communities.
               })}
             </div>
             <div className="w-full h-full block md:hidden">
-                <Carousel2/>
+              <Carousel2 />
             </div>
             <div className="w-full mt-10 md:mt-16">
-             <p className="text-center font-Inter text-[1rem] font-[400]">“The four current Workday Venture partners are some of the strongest recruiting technologies in the game right now.”<br/>
-             <strong className="font-[600] font-Inter text-[1rem] text-center">– Tim Sackett</strong></p>
+              <p className="text-center font-Inter text-[1rem] font-[400]">
+                “The four current Workday Venture partners are some of the
+                strongest recruiting technologies in the game right now.”
+                <br />
+                <strong className="font-[600] font-Inter text-[1rem] text-center">
+                  – Tim Sackett
+                </strong>
+              </p>
             </div>
           </div>
-
         </div>
       </div>
     </>

@@ -18,6 +18,10 @@ function Header() {
       name: "Teen Ambassadors",
       link: "/teen-ambassadors",
     },
+    {
+      name: "For Teenagers",
+      link: "/for-teenagers",
+    },
   ];
   return (
     <>
@@ -34,7 +38,7 @@ function Header() {
               />
             </Link>
           </div>
-          <div className="w-[30%] h-full hidden   md:flex justify-between items-center font-[500]">
+          <div className="w-[40%] h-full hidden   md:flex justify-between items-center font-[500]">
             {nav.map((item, index) => {
               return (
                 <Link

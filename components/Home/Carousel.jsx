@@ -5,22 +5,22 @@ import "@splidejs/react-splide/css";
 
 const testinomy = [
   {
-    img: "/images/landingPage/Christopher_Zettlemoyer.png",
-    name: "Christopher Zettlemoyer",
-    role: "AAA Dispatcher",
-    desc: "Every time I go onto Jobcase I learn something new from other members.”",
+    // img: "/images/landingPage/Christopher_Zettlemoyer.png",
+    name: "Deepika",
+    role: "10th class student",
+    desc: "Highly recommended for all the ambitious teens interested in building a truly productive network with like-minded teens alongside learning new skills”",
   },
   {
-    img: "/images/landingPage/Edith_Graham.png",
-    name: "Edith Graham",
-    role: "Job Seeker",
-    desc: "The experience on Jobcase feels very personalized and the members are like a support team.”",
+    // img: "/images/landingPage/Edith_Graham.png",
+    name: "Yashwanth",
+    role: "9th class student",
+    desc: "Great platforms for teens, not only to explore your interests but also to network and collaborate on impactful projects & interesting ideas",
   },
   {
-    img: "/images/landingPage/Arnie_Nelson.png",
-    name: "Arnie Nelson",
-    role: "Home Care Provider",
-    desc: "Jobcase is a safe environment and the best place to go if you're looking for a job.”",
+    // img: "/images/landingPage/Arnie_Nelson.png",
+    name: "Ayesha",
+    role: "7th class student",
+    desc: "It's an amazing platform for teenagers. I call all the teens to check out the platform and the ideas aimed at rewarding teenagers impactful experiences",
   },
 ];
 
@@ -69,18 +69,18 @@ function Carousel() {
                           <p className="  font-cond whitespace-pre-wrap leading-[12px] inline-block text-bluee  text-[86px] font-bold transform translate-y-6">
                             “
                           </p>
-                          <p className="text-[1.25rem] font-Inter  ">
+                          <p className="text-[18px] leading-[1.85]  font-Inter  ">
                             {item.desc}
                           </p>
                         </div>
                         <div className="flex items-center ">
-                          <Image
+                          {/* <Image
                             src={item.img}
                             width={50}
                             height={50}
                             alt="as"
                             className="rounded-[50%] mr-5"
-                          />
+                          /> */}
                           <div>
                             <p className=" font-Inter font-[500] text-[19px] text-bluee">
                               {item.name}

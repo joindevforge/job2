@@ -106,9 +106,9 @@ function Teenhall() {
             direction="left"
             speed={65}
             autoFill="true"
-            className="flex min-w-0 flex-[0_0_100%]  items-center gap-8 flex-nowrap"
+            className=""
           >
-            <p className=" flex items-center font-Inter text-[#fff] text-[1.15rem] sm:text-[1.25rem] font-[500] tracking-[-0.2px]">
+            <p className="  w-[100%] flex items-center font-Inter text-[#fff] text-[1.15rem] sm:text-[1.25rem] font-[500] tracking-[-0.2px]">
               {" "}
               TeenHall by TeenHive - an exclusive idea discovery and teen
               networking event
@@ -118,7 +118,7 @@ function Teenhall() {
                 height="25"
                 viewBox="0 0 25 25"
                 fill="none"
-                className=" mx-[10px]"
+                className=" mx-[20px]"
               >
                 <g clip-path="url(#clip0_1_24)">
                   <path
@@ -133,9 +133,6 @@ function Teenhall() {
                 </defs>
               </svg>
             </p>
-          
-              
-            
           </Marquee>
         </div>
       </div>
@@ -191,7 +188,7 @@ function Teenhall() {
       <div className=" bg-[#F4F4F4] pb-[60px] w-full h-full">
         <div className=" max-w-[1280px] w-full h-full mx-auto">
           <div className="w-full h-full flex justify-center">
-            <p className=" text-[#2E2E2E] pt-[86px] leading-[1.75] tracking-[-0.018em] w-full px-[30px] sm:w-[58.4375%] text-center font-Inter text-[1.5rem] font-[500]">
+            <p className=" text-[#2E2E2E] pt-[86px] leading-[1.75] tracking-[-0.018em] w-full px-[30px] sm:w-[58.4375%] text-center font-Domine font-bold text-[1.5rem] ">
               Dive in to discover some fantastic ideas and projects and stand a
               chance to win some unbelievable prizes.
             </p>
@@ -215,14 +212,14 @@ function Teenhall() {
           </p>
         </div>
       </div>
-      <div className="bg-[#F4F4F4] pb-[90px] w-full h-full">
+      <div className="bg-[#F4F4F4]  w-full ">
         <div className="mx-auto max-w-[1280px] w-full h-full">
           <p className=" text-center sm:pt-[90px] pt-[50px] pb-[20px] font-Inter text-[24px] tracking-[-0.72px]  font-[500] ">
             TeenHall August Calendar
           </p>
-          <div className=" max-w-[80%] mx-auto w-full h-full flex justify-center items-center  ">
+          <div className=" max-w-[80%] mx-auto w-full h-full flex justify-center  items-center  ">
             <div>
-              <iframe src="https://zcal.co/i/bHcvCUr7?embed=1&embedType=iframe" loading="lazy" className=" min-w-[320px] min-h-[1044px] w-full h-full sm:h-[1250px] sm:w-[1030px]" id="zcal-invite"></iframe>
+              <iframe src="https://zcal.co/i/bHcvCUr7?embed=1&embedType=iframe" loading="lazy" className=" min-w-[320px] min-h-[1044px] w-full h-full sm:h-[1100px] sm:w-[1030px]" id="zcal-invite"></iframe>
             </div>
           </div>
         </div>

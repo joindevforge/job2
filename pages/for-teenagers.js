@@ -40,8 +40,8 @@ const cardData = [
   },
   {
     
-    title: "Skills and achievements showcase",
-    desc: "A teen profile where teenagers can highlight their skills, achievements, extracurricular activities, and project work to showcase their abilities to potential colleges or employers.",
+    title: "Scholarships and Fellowships",
+    desc: "Introducing scholarships, grants, and financial aid opportunities specifically tailored to teenagers.",
   },
 ];
 
@@ -139,9 +139,10 @@ function Employee() {
               </div>
               <div className=" w-full  flex  pt-8 pr-[30px] md:pt-0">
                 <img
-                  src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/363340344_673775471462543_4116554646052709963_n-min.jpg"
+                  
+                  src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/292424085_626920661703109_5738193414187707202_n%201-min.png"
                   alt="hero"
-                  className=" h-full w-full md:w-full object-cover"
+                  className=" h-full w-full md:w-full rounded-[20px] object-cover"
                 />
               </div>
             </div>
@@ -150,8 +151,7 @@ function Employee() {
               <div className="sm:max-w-[60%] h-full  sm:h-[570px]  w-full  flex justify-center items-center">
                 <div className="  w-fit   ">
                   <h2 className="mt-[2rem] mb-[1.5rem] md:max-w-[565px]  text-[#2C04BD] max-w-full w-full md:text-[2.5rem]   pl-[12px] tracking-[-0.7px] text-[32px]  font-[700] font-Domine">
-                    Where <span className="text-[#FC6243]">networking</span>{" "}
-                    meets <span className="text-[#FC6243]">teenage spirit</span>
+                  Empowering the next generation of achievers
                     !
                   </h2>
                   <p className="  md:max-w-[546px] max-w-full leading-[1.85] tracking-[-0.015em]  font-Inter font-[400] text-[1.125rem] text-[#262626]  m-0 ">
@@ -167,9 +167,9 @@ function Employee() {
               </div>
               <div className="  w-full flex justify-center pt-8 md:pt-0">
                 <img
-                  src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/292424085_626920661703109_5738193414187707202_n%201-min.png"
+                 src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/363340344_673775471462543_4116554646052709963_n-min.jpg"
                   alt="hero"
-                  className="w-full  object-cover md:w-full"
+                  className="w-full rounded-[20px]  object-cover md:w-full"
                 />
               </div>
             </div>

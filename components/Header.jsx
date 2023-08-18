@@ -3,6 +3,8 @@ import Link from "next/link";
 import React from "react";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import Modalget from "./Modalget";
+import Modallog from "./Modellog";
 
 function Header() {
   const [isopen, setIsopen] = useState(false);
@@ -25,6 +27,10 @@ function Header() {
       link: "/for-teenagers",
     },
   ];
+
+  const [model1, setModel1] = useState(false);
+  const [model2, setModel2] = useState(false);
+
   return (
     <>
       <div className="w-full h-[5.3125rem] top-0 border-[1px]  flex justify-center z-50 bg-white ">
@@ -44,34 +50,40 @@ function Header() {
             {nav.map((item, index) => {
               return (
                 <Link
-              key={index}
-              href={item.link}
-              className={`relative h-[28px] px-[5px] text-base font-Inter mx-[5px] transition-all duration-200 ease-in-out text-[20px] font-[500] ${
-                router.pathname === item.link ? "text-black" : "text-black"
-              }`} 
-            >
-              {item.name}
-              {router.pathname === item.link && (
-                <span
-                  className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-[2px] mt-[15px] rounded-[1px] bg-[#FC6142]"
-                  style={{ width: "20px" }} 
-                />
-              )}
-             
-            </Link>
+                  key={index}
+                  href={item.link}
+                  className={`relative h-[28px] px-[5px] text-base font-Inter mx-[5px] transition-all duration-200 ease-in-out text-[20px] font-[500] ${
+                    router.pathname === item.link ? "text-black" : "text-black"
+                  }`}
+                >
+                  {item.name}
+                  {router.pathname === item.link && (
+                    <span
+                      className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-[2px] mt-[15px] rounded-[1px] bg-[#FC6142]"
+                      style={{ width: "20px" }}
+                    />
+                  )}
+                </Link>
               );
             })}
           </div>
           <div className="w-[25%] font-Inter  text-black  flex justify-evenly items-center ">
-            <button className="w-[108px] hidden md:block h-[38px] text-[16px] font-[700] text-white rounded-[12px]  bg-[#fc6142] hover:bg-blue-700">
-              <Link href="#">Join</Link>
+            <button
+              onClick={() => {
+                setModel1(!model1);
+              }}
+              className="w-[148px] hidden md:block h-[38px] text-[16px] font-[700] text-white rounded-[12px]  bg-[#fc6142] hover:bg-blue-700"
+            >
+              Get Early Acess
             </button>
-            <Link href="#" className="text-[16px] font-[700]  hidden md:block">
+            <button onClick={()=>{
+              setModel2(!model2)
+            }} className="text-[16px] font-[700]  hidden md:block">
               Log in
-            </Link>
-            <Link href="/employee" className="text-[16px] font-[700]  hidden md:block">
+            </button>
+            {/* <Link href="/employee" className="text-[16px] font-[700]  hidden md:block">
               Employers
-            </Link>
+            </Link> */}
             <div className="  text-black mr-4 block md:hidden">
               <button
                 onClick={() => {
@@ -142,11 +154,21 @@ function Header() {
                 }}
                 className=" transition-all ease-in duration-500 bg-blue-600 text-white py-3 rounded-[5px] w-full"
               >
-                Search Jobs
+                Get Early Access
               </button>
             </Link>
           </div>
         </div>
+      )}
+      {model1 && (
+        <>
+        <Modalget setModel={setModel1} Model={model1}/>
+        </>
+      )}
+      {model2 && (
+        <>
+        <Modallog setModel={setModel2} Model={model2}/>
+        </>
       )}
     </>
   );

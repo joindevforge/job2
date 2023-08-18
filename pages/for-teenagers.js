@@ -25,24 +25,24 @@ const stroke = [
 
 const cardData = [
   {
-    img: "/images/employee/SpotIcons1.png",
-    title: "Community engagement",
-    desc: "Our team and tools help you and our members get to know each other.",
+  
+    title: "Insights & Success Stories",
+    desc: "Inspiring & Motivating teens by showcasing success stories of young achievers at an early age.",
   },
   {
-    img: "/images/employee/SpotIcons2.png",
-    title: "Job promotion",
-    desc: "Our flexible, multichannel marketing helps you improve application conversion at any scale.",
+   
+    title: "Personal branding support",
+    desc: "Offering resources and guidance on personal branding.",
   },
   {
-    img: "/images/employee/Spoticon3-e1650856041379.png",
-    title: "Brand awareness",
-    desc: "Widen and diversify your audience with brand outreach that makes job promotion more effective.",
+   
+    title: "Internship & Volunteering Opportunities",
+    desc: "Collaborating with non-profits & startups to provide exclusive opportunities for teenagers.",
   },
   {
-    img: "/images/employee/SpotIcons4-e1650855980575.png",
-    title: "Hiring events",
-    desc: "Draw registrants, drive attendance, and virtually host with no contract and our powerful platform.",
+    
+    title: "Skills and achievements showcase",
+    desc: "A teen profile where teenagers can highlight their skills, achievements, extracurricular activities, and project work to showcase their abilities to potential colleges or employers.",
   },
 ];
 
@@ -119,35 +119,37 @@ function Employee() {
         </div>
         {/*  carding start */}
         <div className="w-full h-full flex items-center justify-center">
-          <div className="max-w-[1440px] md:pt-[40px] md:px-[40px] pt-[1rem] px-[1rem] pb-0 mx-auto flex flex-col items-center  w-full h-full">
-            <div className="flex justify-between md:flex-row flex-col-reverse gap-[50px] mx-auto my-0 max-w-[1247px] w-full">
-              <div className="max-w-[674px] flex flex-col  items-end w-full h-full">
-                <h2 className="mt-[2rem] mb-[1.5rem] md:max-w-[565px]  text-[#2C04BD] max-w-full w-full md:text-[2.5rem]   pl-[12px] tracking-[-0.7px] text-[32px]  font-[700] font-Domine">
+          <div className="max-w-[1280px] md:pt-[40px] md:px-[40px] pt-[1rem] px-[1rem] pb-0 mx-auto   w-full h-full">
+            <div className="flex justify-between  md:flex-row flex-col-reverse  gap-[20px] sm:gap-[5px] mx-auto my-0 max-w-[1247px] w-full">
+              <div className="sm:max-w-[60%] flex flex-col   w-full h-full">
+                <h2 className="mt-[2rem] mb-[1.5rem] md:max-w-[565px]  text-[#2C04BD] max-w-full w-full md:text-[2.5rem]    tracking-[-0.7px] text-[32px]  font-[700] font-Domine">
                   Where <span className="text-[#FC6243]">networking</span> meets{" "}
                   <span className="text-[#FC6243]">teenage spirit</span>!
                 </h2>
                 <p className=" md:max-w-[546px] max-w-full leading-[1.85] tracking-[-0.015em]  font-Inter font-[400] text-[1.125rem] text-[#262626]  m-0 ">
-                  As the perfect blend of LinkedIn and the vibrant spirit of
-                  teenagers, Teencept offers a unique space for teens to
-                  connect, collaborate, and blossom. Packed with exciting
-                  volunteering opportunities and interactive workshops, this
-                  innovative platform not only broadens horizons but also
-                  empowers young minds to make a meaningful impact in their
-                  communities.
+                  By leveraging the power of networking, Teencept aims to create
+                  a vibrant community where high school students can foster
+                  personal and professional growth, explore new opportunities,
+                  and pave their path towards success in the new era of India.
+                  With the aim of empowering the next generation, Teencept acts
+                  as a bridge between ambition and success. Embracing the spirit
+                  of new India, this platform is a testament to the
+                  transformative power of networking and the limitless potential
+                  of young minds.
                 </p>
               </div>
-              <div className="max-w-[452px] w-full flex justify-center md:mr-[130px] pt-8 md:pt-0">
+              <div className=" w-full  flex  pt-8 pr-[30px] md:pt-0">
                 <img
-                  src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/292424085_626920661703109_5738193414187707202_n%201-min.png"
+                  src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/363340344_673775471462543_4116554646052709963_n-min.jpg"
                   alt="hero"
                   className=" h-full w-full md:w-full object-cover"
                 />
               </div>
             </div>
             {/* second  */}
-            <div className="flex  bg-red-500 md:flex-row-reverse flex-col-reverse mx-auto my-0 max-w-[1247px] w-full pt-[40px] md:pt-[80px]">
-              <div className="max-w-[613px] w-full h-full   flex  items-center">
-                <div className="w-full h-full flex flex-col items-start ">
+            <div className="flex   md:flex-row-reverse flex-col-reverse mx-auto h-full sm:gap-[60px] gap-[20px]  max-w-[1247px] w-full pt-[40px] md:pt-[80px]">
+              <div className="sm:max-w-[60%] h-full  sm:h-[570px]  w-full  flex justify-center items-center">
+                <div className="  w-fit   ">
                   <h2 className="mt-[2rem] mb-[1.5rem] md:max-w-[565px]  text-[#2C04BD] max-w-full w-full md:text-[2.5rem]   pl-[12px] tracking-[-0.7px] text-[32px]  font-[700] font-Domine">
                     Where <span className="text-[#FC6243]">networking</span>{" "}
                     meets <span className="text-[#FC6243]">teenage spirit</span>
@@ -164,11 +166,11 @@ function Employee() {
                   </p>
                 </div>
               </div>
-              <div className="max-w-[452px] md:ml-[116px] md:mr-[130px] w-full flex justify-center pt-8 md:pt-0">
+              <div className="  w-full flex justify-center pt-8 md:pt-0">
                 <img
-                  src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/363340344_673775471462543_4116554646052709963_n-min.jpg"
+                  src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/292424085_626920661703109_5738193414187707202_n%201-min.png"
                   alt="hero"
-                  className="w-full h-full object-cover md:w-full"
+                  className="w-full  object-cover md:w-full"
                 />
               </div>
             </div>

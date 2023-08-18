@@ -9,14 +9,14 @@ function Hero() {
         <div className="w-full h-full flex justify-center ">
           <div className="lg:w-[1280px] w-full md:h-[809px]  h-[350px] overflow-hidden lg:overflow-visible  relative ">
             <div className=" absolute md:top-[10.5%] top-[15%] left-[10%]">
-              <h1 className=" font-domine md:leading-normal leading-[30px] md3:text-[6rem] md:text-[5rem] text-[1.5rem] font-[700] tracking-normal  md:tracking-[-4.32px] text-[#1C04AD] ">
+              <h1 className=" font-Domine md:leading-[1.6] leading-[30px] md3:text-[6rem] md:text-[5rem] text-[1.5rem] font-[700] tracking-normal  md:tracking-[-4.32px] text-[#1C04AD] ">
                 A new
                 <br />
                 <span className="text-[#FC6142]">LinkedIn</span> for the
               </h1>
             </div>
-            <div className=" absolute md:top-[45.75%] top-[31.5%] left-[41%] z-10 ">
-              <h1 className="font-domine md3:text-[6rem] md:text-[5rem] text-[1.5rem] font-[700] md:leading-normal leading-[30px] tracking-normal  md:tracking-[-4.32px] text-[#1C04AD]">
+            <div className=" absolute md:top-[46.75%] top-[31.5%] left-[41%] z-10 ">
+              <h1 className="font-Domine md3:text-[6rem] md:text-[5rem] text-[1.5rem] font-[700] md:leading-[1.4] leading-[30px] tracking-normal  md:tracking-[-4.32px] text-[#1C04AD]">
                 <span className="text-[#FC6142]">teenagers</span> of <br />
                 new India
               </h1>

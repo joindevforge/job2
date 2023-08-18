@@ -7,12 +7,14 @@ import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
 
 const images = [
-  "/images/landingPage/b1.svg",
-  "/images/landingPage/b2.svg",
-  "/images/landingPage/b3.svg",
-  "/images/landingPage/b4.svg",
-  "/images/landingPage/b5.svg",
-  "/images/landingPage/b6.svg",
+  "https://ik.imagekit.io/nhuikqpll/teenhive_home/Group%208675.svg",
+  "https://ik.imagekit.io/nhuikqpll/teenhive_home/Group%208679.svg",
+  "https://ik.imagekit.io/nhuikqpll/teenhive_home/influenzo.svg",
+  "https://ik.imagekit.io/nhuikqpll/teenhive_home/Group%208677.svg",
+  "https://ik.imagekit.io/nhuikqpll/teenhive_home/Group%208670.svg",
+  "https://ik.imagekit.io/nhuikqpll/teenhive_home/AIscribe.svg",
+  "https://ik.imagekit.io/nhuikqpll/teenhive_home/BrainBot.svg",
+  "https://ik.imagekit.io/nhuikqpll/teenhive_home/innoprompt.svg"
 ];
 
 const resources = [
@@ -56,13 +58,13 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <div className="wrapper bg-[#DBEFFE] md:mt-[6.25rem] mt-0">
+      <div className="wrapper bg-[#f4f4f4] md:mt-[6.25rem] mt-0">
         <div className="wrapper-item md:py-[100px] py-[50px]">
           <div className="w-full h-full flex flex-col items-center">
-            <h1 className="md:w-[45%]  w-[95%] h-full md:text-[2rem] text-[1.75rem] font-[700] text-center font-domine">
+            <h1 className="md:w-[45%] leading-[1.75]  w-[95%] h-full md:text-[1.75rem] tracking-[-0.025em] text-[1.75rem] font-[700] text-center font-Domine">
               Helping teens get ahead whether it is college or career
             </h1>
-            <p className="md:mt-[40px] mt-[20px] md:w-[57%]  w-[90%] md:text-center text-left font-Inter md:text-[1.25rem] text-[1rem] font-[400]">
+            <p className="md:mt-[20px] mt-[20px] md:w-[57%] leading-[1.85] tracking-[-0.015em]  w-[90%] md:text-center text-left font-Inter md:text-[1.25rem] text-[1rem] font-[400]">
               From a young age, school has taught us that our academic success
               will be essential to getting jobs in the future. However, school
               often fails to teach us that many other factors, the most
@@ -72,8 +74,8 @@ export default function Home() {
         </div>
       </div>
       <div className="wrapper bg-[#FAFAFA]">
-        <div className="wrapper-item md:py-[124px] py-[60px]">
-          <h1 className=" text-center font-domine md:text-[2rem] text-[1.75rem] font-[700] px-4">
+        <div className="wrapper-item md:py-[64px] py-[60px]">
+          <h1 className=" text-center font-Domine md:text-[1.65rem]  tracking-[-0.015em] text-[1.75rem] font-[700] px-4">
             Explore opportunities that help you get ahead
           </h1>
           <div className="md:mt-[50px] mt-[30px]  w-full h-full flex justify-center flex-col items-center">
@@ -103,9 +105,9 @@ export default function Home() {
       </div>
       <div className="wrapper">
         <div className="wrapper-item">
-          <div className="pt-[3rem] flex flex-col items-center">
-            <h3 className="  text-[1.75rem] pb-[10px] text-center lg:text-[3rem] w-[80%] md:w-full font-[500] px-4">
-              See what millions of workers are saying
+          <div className="pt-[100px] flex flex-col items-center">
+            <h3 className="  text-[1.75rem] pb-[10px] tracking-[-0.015em] text-center lg:text-[3rem] w-[80%] md:w-full font-Domine font-[700] px-4">
+            See what ambitious teens are saying
             </h3>
             <div className="pt-[1rem] w-full h-full flex flex-col items-center">
               <div className="max-w-[1296px] w-full">
@@ -122,20 +124,22 @@ export default function Home() {
         </div>
       </div>
       {/*  */}
-      <div className="pt-[2rem]">
-        <h3 className="w-full   pb-[10px] font-FoundersA text-center md:text-[3rem] text-[2rem] leading-[38px] font-[500] px-4">
-          Work with top employers & local businesses
+      <div className="pt-[4rem]">
+       <div className="w-full flex justify-center">
+       <h3 className="  text-center w-[53%] leading-[1.75]   pb-[10px]  font-Domine md:text-[1.75rem] tracking-[-0.025em]   text-[1.75rem]  font-[700] px-4">
+        Empowering  <span className=" text-[#FC6142]">aspiring teenpreneurs</span> to build the <span className="text-[#2C04BD]">next big thing</span>
         </h3>
-        <div className="my-10 pb-[2rem] md:pb-[4rem] flex justify-center  ">
-          <div className="grid md2:grid-cols-6  grid-cols-3 gap-5 items-center justify-center mx-4 w-full max-w-[1280px]  ">
+       </div>
+        <div className="  pb-[2rem] mt-[20px] md:pb-[100px] flex justify-center  ">
+          <div className="grid md2:grid-cols-6  grid-cols-4 gap-[-5%]  items-center justify-center mx-4 w-full max-w-[1280px]  ">
             {images.map((item, index) => {
               return (
                 <div
                   key={index}
-                  className="w-full flex items-center justify-center"
+                  className="w-full flex mt-[40px] h-full items-center justify-center"
                 >
-                  <div className="md:w-[150px]   max-w-full max-h-full flex justify-center overflow-hidden md:h-[48px]">
-                    <img src={item} alt="as" className="flex justify-center" />
+                  <div className=" items-center   max-w-full max-h-full flex justify-center  ">
+                    <img src={item} alt="as" className="flex justify-center w-full h-full object-cover" />
                   </div>
                 </div>
               );
@@ -143,13 +147,13 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className=" bg-bluee ass  p-0 px-8  py-[3rem]  md:max-h-[162px] md:p-[3.5rem] flex items-center  justify-center flex-wrap">
-        <p className="lg:text-[3.5rem] text-[3.5rem]   leading-[3.125rem] mt-4 mr-6 font-[700] font-cond   as text-white text-center">
-          GET TOGETHER. GET AHEAD.
+      <div className=" bg-bluee ass   px-8    pt-[60px]  pb-[70px] flex items-center  justify-center flex-wrap">
+        <p className="lg:text-[3.5rem] text-[3.5rem]   tracking-[-1.05px]  leading-[3.125rem] mt-4 mr-6 font-[700] font-Domine   as text-white text-center">
+        Unleash your potential
         </p>
-        <button className="md:w-[160px] w-full h-[50px] bg-[#FC6142] mt-2 lg:mt-0 text-white font-Inter font-[700] rounded-[12px]">
+        {/* <button className="md:w-[160px] w-full h-[50px] bg-[#FC6142] mt-2 lg:mt-0 text-white font-Inter font-[700] rounded-[12px]">
           Join for free
-        </button>
+        </button> */}
       </div>
       <div className="w-full h-full flex items-center justify-center md:p-[5rem] p-0 pt-[2rem] ">
         <div className="max-w-[1280px] w-full px-4 md:px-0 h-full ">

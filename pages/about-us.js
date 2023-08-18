@@ -21,18 +21,18 @@ const stroke = [
 
 const cardData = [
   {
-    title: "Tools",
-    desc: "Jobcase provides lots of capabilities for job seeking and self-improvement, like - access to jobs, an online profile and resume builder, important learning resources, and other great ways to help you take action and create a better future.",
+    title: "Recognition",
+    desc: "Emphasizing the importance of community involvement by allowing teenagers to highlight their volunteer work and community service projects, enabling them to build a social impact-oriented profile.",
     img: "/images/about/icontool.png",
   },
   {
-    title: "Community",
-    desc: "No one should have to go it alone, and we can all learn from each other. That's why Jobcase offers a positive place to share experiences. If you need advice, support, or inspiration, you'll find millions of people across the US who are willing to help you.",
+    title: "Guidance",
+    desc: "Offering guidance and support from career counselors or experts who can provide personalized advice to teenagers regarding their academic choices, college majors, or future career directions.",
     img: "/images/about/icon-1.png",
   },
   {
-    title: "Advocacy",
-    desc: "As a community of millions, Jobcase has the power to elevate the voices and needs of America's workers. We promote business practices and technology that put people first, and foster an economy that rewards all stakeholders.",
+    title: "Community",
+    desc: "Provide a safe and secure networking environment for teenagers to connect and communicate with peers who share similar interests, goals, and ambitions.",
     img: "/images/about/icon2.png",
   },
 ];
@@ -57,21 +57,22 @@ function Aboutus() {
   return (
     <>
       <div className="w-full h-full mt-10">
-        <h1 className="md:text-[4.375rem] text-[2.5rem] pt-10 font-[700] font-cond  text-bluee w-full text-center ">
-          EMPOWERING EVERY WORKER.
+        <h1 className="md:text-[4rem] text-[2.5rem] tracking-[-0.025em] pt-10 font-[700] font-Domine text-bluee w-full text-center ">
+        Empowering teens of India
         </h1>
-        <p className="pt-4 text-center text-[#212529] text-[1rem]">
-          Jobcase is an online community dedicated to empowering the
-          world&apos;s workers.
+        <p className="pt-4 text-center font-Inter text-[#212529] text-[1.15rem] tracking-[-0.025em">
+        A new LinkedIn aimed at empowering the ambitious teens of new India.
         </p>
         <div className="w-full h-full pt-12">
-          <img
-            src="/images/about/hero1.png"
+         <div className=" mx-auto  max-w-[1280px]">
+         <img
+            src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/Group%2027-min.png"
             alt="hero"
-            className="hidden md:block"
+            className="hidden md:block object-cover "
           />
+         </div>
           <img
-            src="/images/about/about-mobile.png"
+            src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/Group%2027-min.png"
             alt="hero"
             className="block md:hidden"
           />
@@ -85,7 +86,7 @@ function Aboutus() {
                     <p className="md:text-[2.25rem] text-[2rem] font-bold text-bluee font-Founders text-center">
                       {item.number}
                     </p>
-                    <p className="text-[#595959] font-[400] font-Inter text-[1rem] text-center">
+                    <p className="text-[#595959] font-[400]  font-Inter text-[1rem] text-center">
                       {item.desc}
                     </p>
                   </div>
@@ -93,22 +94,19 @@ function Aboutus() {
               );
             })}
           </div>
-          <div className="container font-Inter lg:w-[75%] md:w-[85%] w-[95%] md:py-[5rem]  pl-[40px]  pt-10 pr-5 text-left  ">
+          <div className="container font-Inter lg:w-[75%] leading-[1.75] md:w-[85%] w-[95%] md:py-[5rem]  pl-[40px]  pt-10 pr-5 text-left  ">
             <p>
-              Millions of members connect on Jobcase to seize opportunities,
-              share advice, and navigate the work landscape together. Online or
-              in the Jobcase app, workers can find jobs, apply instantly, and
-              get and give the support everyone needs on their way to success.
+            Introducing &apos;TeenHive&apos; - the revolutionary networking platform designed exclusively for the high school students of new India. Just like LinkedIn, TeenHive enables teenagers to build connections, explore career opportunities, and showcase their skills and achievements.
             </p>
-            <p className="text-[10px] font-Inter pt-[2rem]">
+            {/* <p className="text-[10px] font-Inter pt-[2rem]">
               ¹Comscore Media Metrix®, Career Services and Development, Total
               Audience, December 2022, U.S.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="bg-[#f2f2f2] py-[3rem]">
-          <h3 className="w-full  text-[1.75rem] pb-[10px] md:text-[3rem] font-bold text-[#262626] px-4 text-center">
-            What does empowering workers mean?
+          <h3 className="w-full  text-[28px] pb-[10px] md:text-[28px] tracking-[-0.015em]  font-Domine font-bold text-[#262626] px-4 text-center">
+            What does empowering teens mean?
           </h3>
           <p className=" font-Inter text-center md:text-[1.25rem] text-[1rem] px-4 ">
             Our approach is a combination of the following things:
@@ -128,19 +126,12 @@ function Aboutus() {
                     {cardData.map((item, index) => {
                       return (
                         <SplideSlide key={index}>
-                          <div className="bg-[#fff] border border-[#e5e5e5] rounded-[12px] max-w-[410px] mx-2 py-[24px] px-[40px]">
-                            <div className="w-full flex items-center justify-center">
-                              <img
-                                src={item.img}
-                                alt="icon"
-                                className="w-[100px] h-[100px]"
-                              />
-                            </div>
+                          <div className="bg-[#fff] border border-[#e5e5e5] min-h-[325px] rounded-[12px] max-w-[410px] mx-2 py-[24px] px-[40px]">
                             <div className="w-full pt-5">
-                              <p className="text-[36px] font-[500] font-Founders">
+                              <p className="text-[28px]  tracking-[-0.025em]   font-bold font-Domine">
                                 {item.title}
                               </p>
-                              <p className="text-[#262626]  font-[400] pb-[34px]">
+                              <p className="text-[#262626] text-[16px] leading-[1.75] mt-[10px]  font-Inter  font-[400] pb-[34px]">
                                 {item.desc}
                               </p>
                             </div>

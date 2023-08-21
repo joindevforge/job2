@@ -2,6 +2,7 @@ import Carousel from "@/components/Home/Carousel";
 import Chips2 from "@/components/Home/Chips2";
 import Chips3 from "@/components/Home/Chips3";
 import Hero from "@/components/Home/Hero";
+import Hero2 from "@/components/Home/Hero2";
 import Tags from "@/components/Home/Tags";
 import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
@@ -57,8 +58,8 @@ const search2 = [
 export default function Home() {
   return (
     <>
-      <Hero />
-      <div className="wrapper bg-[#f4f4f4] md:mt-[6.25rem] mt-0">
+      <Hero2 />
+      <div className="wrapper bg-[#f4f4f4] md:mt-[4.25rem] mt-0">
         <div className="wrapper-item md:py-[100px] py-[50px]">
           <div className="w-full h-full flex flex-col items-center">
             <h1 className="md:w-[45%] leading-[1.75]  w-[95%] h-full md:text-[1.75rem] tracking-[-0.025em] text-[1.75rem] font-[700] text-center font-Domine">
@@ -131,7 +132,7 @@ export default function Home() {
         </h3>
        </div>
         <div className="  pb-[2rem] mt-[20px] md:pb-[100px] flex justify-center  ">
-          <div className="grid md2:grid-cols-4  grid-cols-2 gap-[30px]  items-center justify-center mx-4 w-full max-w-[1280px]  ">
+          <div className="grid md:grid-cols-4  grid-cols-2 gap-[30px]  items-center justify-center mx-4 w-full max-w-[1280px]  ">
             {images.map((item, index) => {
               return (
                 <div

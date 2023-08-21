@@ -6,7 +6,7 @@ function Modallog({setModel,Model}) {
         <div className="w-full h-screen fixed  top-0 z-30 ">
           <div className=" w-full fixed top-0 h-screen bg-black z-40 opacity-70" />
           <div className="fixed top-0 w-full h-full z-50 flex items-center justify-center">
-            <div className="w-[576px]  h-[416px]  bg-white rounded-[20px] flex flex-col  items-center">
+            <div className="sm:w-[576px] w-full mx-[20px]  h-[416px]  bg-white rounded-[20px] flex flex-col  items-center">
               <div className="w-full h-[50px] flex justify-end items-center">
                 <button
                   onClick={() => {
@@ -30,7 +30,7 @@ function Modallog({setModel,Model}) {
                   </svg>
                 </button>
               </div>
-              <div className=" w-full h-full px-[5rem]">
+              <div className=" w-full h-full px-[40px] sm:px-[5rem]">
                 <p className=" font-Domine tracking-[-0.015em]  text-center font-bold  text-[1.5rem]">
                   Login
                 </p>

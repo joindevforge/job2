@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+body.modal-open {
+  overflow: hidden;
+}
+
 
 .wrapper{
   width: 100%;
@@ -48,3 +52,4 @@
   -ms-transform: rotate(-15.619deg);
   -o-transform: rotate(-15.619deg);
 }
+

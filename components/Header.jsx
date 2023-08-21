@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { useState } from "react";
+import { useState ,useEffect} from "react";
 import { useRouter } from "next/router";
 import Modalget from "./Modalget";
 import Modallog from "./Modellog";
@@ -31,11 +31,24 @@ function Header() {
   const [model1, setModel1] = useState(false);
   const [model2, setModel2] = useState(false);
 
+  useEffect(() => {
+    if (isopen) {
+      document.body.classList.add("modal-open");
+    } else {
+      document.body.classList.remove("modal-open");
+    }
+
+    // Clean up the effect
+    return () => {
+      document.body.classList.remove("modal-open");
+    };
+  }, [isopen]);
+
   return (
     <>
       <div className="w-full h-[5.3125rem] z-50 top-0 border-[1px]  flex justify-center  bg-white ">
         <div className="w-[98%] flex items-center justify-between h-full">
-          <div className=" w-[15%]  h-full  flex   justify-start items-center ">
+          <div className=" sm:w-[15%] w-[25%]  h-full  flex   justify-start items-center ">
             <Link href="/" className="">
               <Image
                 src="https://ik.imagekit.io/nhuikqpll/teenhive_home/teenhive.svg"

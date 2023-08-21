@@ -64,7 +64,7 @@ function Aboutus() {
         A new LinkedIn aimed at empowering the ambitious teens of new India.
         </p>
         <div className="w-full h-full pt-12">
-         <div className=" mx-auto  max-w-[1280px]">
+         <div className=" mx-auto  w-full">
          <img
             src="https://ik.imagekit.io/nhuikqpll/teenhive_teenhall/Group%2027-min.png"
             alt="hero"

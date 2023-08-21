@@ -108,7 +108,7 @@ function Teenhall() {
             autoFill="true"
             className=""
           >
-            <p className="  w-[100%] flex items-center font-Inter text-[#fff] text-[1.15rem] sm:text-[1.25rem] font-[500] tracking-[-0.2px]">
+            <p className="  w-[100%] flex items-center font-Inter whitespace-nowrap text-[#fff] text-[1.15rem] sm:text-[1.25rem] font-[500] tracking-[-0.2px]">
               {" "}
               TeenHall by TeenHive - an exclusive idea discovery and teen
               networking event
@@ -212,14 +212,14 @@ function Teenhall() {
           </p>
         </div>
       </div>
-      <div className="bg-[#F4F4F4]  w-full ">
+      <div className="bg-[#F4F4F4] pb-[40px]  w-full ">
         <div className="mx-auto max-w-[1280px] w-full h-full">
           <p className=" text-center sm:pt-[90px] pt-[50px] pb-[20px] font-Inter text-[24px] tracking-[-0.72px]  font-[500] ">
             TeenHall August Calendar
           </p>
           <div className=" max-w-[80%] mx-auto w-full h-full flex justify-center  items-center  ">
             <div>
-              <iframe src="https://zcal.co/i/bHcvCUr7?embed=1&embedType=iframe" loading="lazy" className=" min-w-[320px] min-h-[1044px] w-full h-full sm:h-[1100px] sm:w-[1030px]" id="zcal-invite"></iframe>
+              <iframe src="https://zcal.co/i/bHcvCUr7?embed=1&embedType=iframe" loading="lazy" className=" min-w-[320px] min-h-[1144px] w-full h-full sm:h-[1100px] sm:w-[1030px]" id="zcal-invite"></iframe>
             </div>
           </div>
         </div>

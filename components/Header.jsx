@@ -49,7 +49,13 @@ function Header() {
       <div className="w-full h-[5.3125rem] z-50 top-0 border-[1px]  flex justify-center  bg-white ">
         <div className="w-[98%] flex items-center justify-between h-full">
           <div className=" sm:w-[15%] w-[25%]  h-full  flex   justify-start items-center ">
-            <Link href="/" className="">
+            
+            {
+              isopen ? <>
+              <Link onClick={()=>{
+              // setModel1(false)
+              setIsopen(!isopen)
+            }} href="/" className="">
               <Image
                 src="https://ik.imagekit.io/nhuikqpll/teenhive_home/teenhive.svg"
                 alt="logo"
@@ -58,8 +64,23 @@ function Header() {
                 className="mr-4 ml-3"
               />
             </Link>
+              </>:<>
+              <Link onClick={()=>{
+              // setModel1(false)
+              // setIsopen(!isopen)
+            }} href="/" className="">
+              <Image
+                src="https://ik.imagekit.io/nhuikqpll/teenhive_home/teenhive.svg"
+                alt="logo"
+                width={120}
+                height={100}
+                className="mr-4 ml-3"
+              />
+            </Link>
+              </>
+            }
           </div>
-          <div className="w-[40%] h-full hidden    md:flex justify-between items-center font-[500]">
+          <div className="w-[50%] h-full hidden    md:flex justify-between items-center font-[500]">
             {nav.map((item, index) => {
               return (
                 <Link

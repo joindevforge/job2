@@ -5,10 +5,10 @@ function Footer() {
   return (
     <>
       <div className=" relative z-[50] ">
-        <div className=" sm:py-[40px] flex justify-start py-[30px] px-[40px] sm:px-[80px] bg-[#2c04bd]">
-          <div className=" w-[25%]">
+        <div className=" sm:py-[40px] flex sm:flex-row flex-col  justify-start py-[30px] px-[20px] sm:px-[80px] bg-[#2c04bd]">
+          <div className=" sm:w-[25%] w-[100%] flex justify-center flex-col items-center ">
             <Link href="/" className=" text-white">
-              <div className="mb-[24px]">
+              <div className="sm:mb-[24px] mb-[18px]">
                 <img
                   src="/images/logo.svg"
                   className=" text-white"
@@ -89,8 +89,8 @@ function Footer() {
             </div>
           </div>
           {/* griding */}
-          <div className="w-[40%] text-[18px] font-Inter h-[100px] grid grid-cols-2">
-            <div className="w-full flex flex-col">
+          <div className="sm:w-[40%] w-full text-[1rem] sm:text-[16px] mt-[20px] sm:mt-0 font-Inter h-full sm:h-[100px] grid grid-cols-2">
+            <div className="w-full flex flex-col justify-center items-center">
             <Link href="/about-us" className="text-white hover:underline">
               About us
             </Link>
@@ -98,7 +98,7 @@ function Footer() {
             TeenHall
             </Link>
             </div>
-            <div className="w-full flex flex-col">
+            <div className="w-full flex flex-col justify-center items-center">
             <Link href="/teen-ambassadors" className="text-white hover:underline">
             Teen Ambassadors
             </Link>

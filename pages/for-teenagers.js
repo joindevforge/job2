@@ -101,7 +101,7 @@ function Employee() {
               return (
                 <>
                   <div key={index} className="">
-                    <p className="md:text-[2.25rem] font-Founders text-[2rem] font-[500] text-bluee text-center">
+                    <p className="md:text-[2.25rem] font-Domine text-[2rem] font-[500] text-bluee text-center">
                       {item.number}
                     </p>
                     <p className="text-[#595959] font-Inter font-[400] text-[1rem] text-center">
@@ -179,7 +179,7 @@ function Employee() {
         {/*  card end */}
         <div className="w-full h-full flex justify-center ">
           <div className="w-full max-w-[1440px]  h-full md:pt-[160px] pt-[80px]  md:px-[40px] px-4 ">
-            <h2 className="md:text-[3rem]  text-[2.125rem] lg:leading-[3rem] leading-[2rem] font-[500] text-center font-Founders w-full ">
+            <h2 className="md:text-[3rem]  text-[2.125rem] lg:leading-[3rem] leading-[2rem] font-[500] text-center font-Domine w-full ">
               How we connect you with workers
             </h2>
             <div className="w-full h-full flex justify-center max-w-[1130px] mx-auto my-0 mb-[120px]">
@@ -203,7 +203,7 @@ function Employee() {
           </div>
         </div>
         <div className=" w-full h-full  ">
-          <p className="md:text-[2.25rem] pb-[2.5rem] text-[2rem] lg:leading-[3rem] leading-[2rem] font-[500] text-center font-Founders w-full">
+          <p className="md:text-[2.25rem] pb-[2.5rem] text-[2rem] lg:leading-[3rem] leading-[2rem] font-[500] text-center font-Domine w-full">
             Tap into the power of the Jobcase community
           </p>
           <div className="w-full h-full flex justify-center items-center pb-20">
@@ -217,7 +217,7 @@ function Employee() {
         </div>
         <div className="md:py-[5rem] py-[2.5rem] md:px-[3.75rem] px-[1rem] bg-[#f4f4f4] flex justify-center">
           <div className="max-w-[1440px] w-full h-full p-0">
-            <h2 className="mb-[2rem]  font-Founders md:text-[36px] text-[28px] font-[500]">
+            <h2 className="mb-[2rem]  font-Domine md:text-[36px] text-[28px] font-[500]">
               What our clients are saying:
             </h2>
             <div className=" hidden md:grid  grid-cols-2 gap-10">

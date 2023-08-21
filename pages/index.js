@@ -19,13 +19,14 @@ const images = [
 ];
 
 const resources = [
-  "Tips to get hired",
-  "Job search strategies",
-  "Work from home",
-  "Avoiding scams",
-  "Popular places to work",
-  "Career discovery",
+  "Teens networking platform",
+  "Ambitious teens in India",
+  "Networking opportunities for teens",
+  "Future leaders of India",
   "Building your network",
+  "LinkedIn alternative for Indian teens",
+  "Connect with ambitious teens in India",
+ 
 ];
 
 const search2 = [

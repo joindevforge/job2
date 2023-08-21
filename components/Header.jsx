@@ -33,7 +33,7 @@ function Header() {
 
   return (
     <>
-      <div className="w-full h-[5.3125rem] top-0 border-[1px]  flex justify-center z-50 bg-white ">
+      <div className="w-full h-[5.3125rem] z-50 top-0 border-[1px]  flex justify-center  bg-white ">
         <div className="w-[98%] flex items-center justify-between h-full">
           <div className=" w-[15%]  h-full  flex   justify-start items-center ">
             <Link href="/" className="">

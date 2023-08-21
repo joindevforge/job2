@@ -6,17 +6,18 @@ function Modallog({setModel,Model}) {
         <div className="w-full h-screen fixed  top-0 z-30 ">
           <div className=" w-full fixed top-0 h-screen bg-black z-40 opacity-70" />
           <div className="fixed top-0 w-full h-full z-50 flex items-center justify-center">
-            <div className="sm:w-[576px] w-full mx-[20px]  h-[416px]  bg-white rounded-[20px] flex flex-col  items-center">
-              <div className="w-full h-[50px] flex justify-end items-center">
+            <div className="sm:w-[476px] w-full mx-[20px]  h-[416px]  bg-white rounded-[20px] flex flex-col  items-center">
+            <div className="w-full pr-[20px] pt-[20px] flex justify-end items-center">
+              <div className=" w-[30px] h-[30px]  rounded-[50%] flex items-center justify-center bg-gray-700">
                 <button
                   onClick={() => {
                     setModel(!Model);
                   }}
-                  className="w-[50px] h-[50px] flex justify-center items-center"
+                  className="w-[20px] h-[20px] flex justify-center items-center"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-black"
+                    className="h-6 w-6 text-white"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -30,7 +31,8 @@ function Modallog({setModel,Model}) {
                   </svg>
                 </button>
               </div>
-              <div className=" w-full h-full px-[40px] sm:px-[5rem]">
+            </div>
+              <div className=" w-full h-full mt-[40px] px-[40px] sm:px-[4rem]">
                 <p className=" font-Domine tracking-[-0.015em]  text-center font-bold  text-[1.5rem]">
                   Login
                 </p>
@@ -42,10 +44,10 @@ function Modallog({setModel,Model}) {
                   className="py-[17px] px-[18px] rounded-[20px] w-full bg-[#2c2c2d0f]"
                   placeholder="example@email.com"
                 />
-                <div className="mt-[5rem] !text-[0.75rem] font-Inter text-center opacity-0">
+                <div className="mt-[2rem] !text-[0.75rem] font-Inter text-center opacity-0">
                   next otp
                 </div>
-                <button className=" rounded-[20px] bg-[#2c2c2d] font-Domine font-bold opacity-70  text-[#fff] py-[16px] px-[54px] text-[14px] w-full h-[56px]">
+                <button className=" rounded-[20px] bg-[#4834d4] font-Domine font-bold opacity-70  text-[#fff] py-[16px] px-[54px] text-[18px] w-full h-[56px]">
                   Login
                 </button>
               </div>

@@ -50,7 +50,7 @@ function Modalget({ setModel, Model }) {
         <div className=" w-full fixed top-0 h-screen bg-black z-40 opacity-70" />
         <div className="fixed top-0 w-full h-full z-50 flex items-center justify-center">
           <div className="sm:w-[476px] w-full mx-[20px] sm:mx-0  h-[416px]  bg-white rounded-[20px] flex flex-col  items-center">
-            <div className="w-full pr-[20px] pt-[20px] flex justify-end items-center">
+          <div className="w-full pr-[20px] pt-[20px] flex justify-end items-center">
               <div className=" w-[30px] h-[30px]  rounded-[50%] flex items-center justify-center bg-gray-700">
                 <button
                   onClick={() => {

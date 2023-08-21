@@ -144,19 +144,36 @@ function Header() {
                 </Link>
               );
             })}
-            <Link
-              href="#"
+            <div
+             
               className="py-6 px-6  text-base font-[400] border-y-[1px] border-gray-500  "
             >
               <button
                 onClick={() => {
                   setIsopen(!isopen);
+                  setModel1(!model1);
                 }}
                 className=" transition-all ease-in duration-500 bg-blue-600 text-white py-3 rounded-[5px] w-full"
               >
                 Get Early Access
               </button>
-            </Link>
+             
+            </div>
+            <div
+             
+              className="py-6 px-6  text-base font-[400] border-b-[1px] border-gray-500  "
+            >
+              <button
+                onClick={() => {
+                  setIsopen(!isopen);
+                  setModel2(!model2);
+                }}
+                className=" transition-all ease-in duration-500 bg-[#fc6142] text-white py-3 rounded-[5px] w-full"
+              >
+                Login
+              </button>
+             
+            </div>
           </div>
         </div>
       )}

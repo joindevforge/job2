@@ -19,40 +19,33 @@ const images = [
 ];
 
 const resources = [
-  "Teens networking platform",
-  "Ambitious teens in India",
-  "Networking opportunities for teens",
-  "Future leaders of India",
-  "Building your network",
-  "LinkedIn alternative for Indian teens",
-  "Connect with ambitious teens in India",
+  "High School Resume Template",
+  "Essay Tools",
+  "Colleges with extended deadlines",
+  "SAT Prep",
+  
+  "Colleges offering full ride/tution scholarships",
+  "Career discovery",
+  "College Application Tracker",
  
 ];
 
 const search2 = [
   {
-    title: "hiringevents",
-    followers: "450k",
+    title: "alphateen",
+    followers: "24 startups created",
   },
   {
-    title: "Hiringnews",
-    followers: "5.6m",
+    title: "teenstartupproject",
+    followers: "12 aspiring teenpreneurs supported",
   },
   {
-    title: "motivation",
-    followers: "5.6m",
+    title: "sif",
+    followers: "56 ideas brainstormed by teens",
   },
   {
-    title: "jobsearch",
-    followers: "6.6m",
-  },
-  {
-    title: "interview",
-    followers: "6.2m",
-  },
-  {
-    title: "resume",
-    followers: "5.8m",
+    title: "startupassignemnts",
+    followers: "3 challenges accepted by teens",
   },
 ];
 
